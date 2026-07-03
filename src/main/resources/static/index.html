@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chittesh | DevOps Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Chittesh<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Chittesh</h1>
+            <p>Electronics & Communication Engineering Student specializing in <span>DevOps & Full-Stack Architectures</span></p>
+            <a href="#contact" class="btn">Request a Project</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <p>I am an ECE undergraduate student focused on bridging the gap between hardware systems and modern software infrastructure. I build automated deployment pipelines, configure container runtimes, and establish continuous monitoring solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <h2 class="section-title">Technical Toolstack</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-git-alt"></i> <h4>Git & GitHub</h4></div>
+            <div class="skill-card"><i class="fab fa-jenkins"></i> <h4>Jenkins CI/CD</h4></div>
+            <div class="skill-card"><i class="fab fa-docker"></i> <h4>Docker Containerization</h4></div>
+            <div class="skill-card"><i class="fas fa-dharmachakra"></i> <h4>Kubernetes (K8s)</h4></div>
+            <div class="skill-card"><i class="fas fa-chart-line"></i> <h4>Grafana & Graphite</h4></div>
+            <div class="skill-card"><i class="fas fa-shield-halved"></i> <h4>Nagios Monitoring</h4></div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Automated Portfolio Architecture</h3>
+                <p>An end-to-end DevOps lifecycle pipeline managing multi-replica orchestration, rolling updates, and synthetic health dashboards.</p>
+                <span class="tag">Docker</span> <span class="tag">Kubernetes</span> <span class="tag">Jenkins</span>
+            </div>
+            <div class="project-card">
+                <h3>AI-Powered ATS Engine</h3>
+                <p>An intelligent web tool leveraging Google AI Studio and the Gemini API framework to parse and optimize resume profiles matching industry specifications.</p>
+                <span class="tag">Gemini API</span> <span class="tag">Python</span>
+            </div>
+            <div class="project-card">
+                <h3>Gesture Control Core</h3>
+                <p>An embedded computer vision stack integrating Arduino microcontrollers with MediaPipe networks to handle physical interfaces.</p>
+                <span class="tag">Arduino</span> <span class="tag">OpenCV</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <h2 class="section-title">Project Intake Form</h2>
+        <div class="contact-container">
+            <p class="form-desc">Fill out this request form to test the end-to-end Spring Boot REST controller integration live!</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group">
+                    <select id="project-type" required>
+                        <option value="" disabled selected>Select Project Scope</option>
+                        <option value="Web Design Portfolio">Web Design Portfolio</option>
+                        <option value="DevOps Infrastructure Deployment">DevOps Infrastructure Deployment</option>
+                        <option value="Full-Stack Web Application">Full-Stack Web Application</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Describe your project requirements..." required></textarea>
+                </div>
+                <button type="submit" class="btn submit-btn">Submit to Spring Boot Backend</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Chittesh. All Rights Reserved | Register Number: 24BEC0749</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
