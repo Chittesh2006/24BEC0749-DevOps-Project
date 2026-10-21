@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         // Matches the specific image configuration you requested
-        IMAGE_NAME = "portfoliomanager"
+        IMAGE_NAME = "portfoliowebapp"
         IMAGE_TAG = "v1"
     }
 
@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo "Checking out source code from GitHub..."
                 // Updated to match your required assignment repository name format
-                git branch: 'main',
+                git branch: 'test_deployment',
                     url: 'https://github.com/Chittesh2006/24BEC0749-DevOps-Project.git'
             }
         }
